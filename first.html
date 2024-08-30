@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <title>login page</title>
+    <form action="local host:5000">
+    <style>
+      .login-container{
+        align-items:center;
+        width:315px;
+        font-family:Arial, Helvetica, sans-serif;
+        border-style:solid;
+        padding-bottom:118px;
+        border-color:rgb(20, 20, 27);
+        border-radius:15px;
+        margin:300px;
+        background-color:white;
+      }
+      h1,p{
+        text-align:center;
+        color:rgb(255, 204, 127);
+      }
+
+      .button{
+        background-color:blue;
+        margin:20px;
+        padding-left:25px ;
+        width:220px;
+        text-align:center;
+        padding-bottom:10px;
+        padding-top:6px;
+        border-radius:12px;
+        color:white;
+        padding-right:8px;
+        cursor:pointer;
+        margin-left:50px;
+        margin-top:35px;
+      }
+       .button:hover{
+        background-color:brown;
+        opacity:0.65;
+        transition:1s;
+       }
+       lebel{
+        line-height: 30px;
+        font-size:18px;
+       }
+       .username,.user-name{
+        display:block;
+        margin-left:25px;
+       }
+       .pass,.password{
+        display:block;
+        margin-left:26px;
+
+
+       }
+          </style>
+        </form>
+     </head>
+  <body>
+    <div class="login-container">
+    <h1>SIGN UP HERE</h1>
+    <lebel class="user-name">username:</lebel>
+    <input class="username" type="text" id="username" required>
+    <lebel class="pass">password:</lebel>
+    <input class="password" type="text,number,symbols" id="password" required>
+    <button class="button">login</button>
+    <p class="para"><a href="">forgot password?</a></p>
+  </div>
+  </body>
+</html>
